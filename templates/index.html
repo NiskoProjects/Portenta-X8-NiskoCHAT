@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portenta X8 LLM Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Mistral LLM Chat</h1>
+            <p>Running on Arduino Portenta X8</p>
+        </header>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message system">
+                <div class="message-content">
+                    <p>Hello! I'm a Mistral LLM running on an Arduino Portenta X8. How can I help you today?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <form id="chat-form">
+                <textarea id="user-input" placeholder="Type your message here..." rows="2"></textarea>
+                <button type="submit" id="send-button">
+                    <span>Send</span>
+                </button>
+            </form>
+        </div>
+        
+        <div class="status-bar">
+            <div id="status-indicator" class="status-indicator online"></div>
+            <span id="status-text">Connected</span>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
