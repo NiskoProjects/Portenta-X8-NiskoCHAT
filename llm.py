@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-class MistralLLM:
+class TinyLlamaLLM:
     """LLM interface for Portenta X8 using llama-cpp-python."""
     
     def __init__(self, model_path="models/tinyllama-1.1b-chat-v1.0.Q4_0.gguf"):

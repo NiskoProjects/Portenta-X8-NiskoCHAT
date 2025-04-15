@@ -152,7 +152,7 @@ If GPU acceleration is not working:
 
 4. Verify that the model is configured to use GPU layers:
    ```bash
-   docker exec -it llm-chat python3 -c "from llm import MistralLLM; model = MistralLLM(); print(f'GPU available: {model.is_using_gpu()}')"
+   docker exec -it llm-chat python3 -c "from llm import TinyLlamaLLM; model = TinyLlamaLLM(); print(f'GPU available: {model.is_using_gpu()}')"
    ```
 
 ## Further Optimization

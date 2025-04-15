@@ -1,6 +1,6 @@
-# Portenta X8 LLM Chat Server
+# Portenta X8 NiskoChat
 
-A lightweight, GPU-accelerated LLM chat server running on the Arduino Portenta X8 board using Docker and TinyLlama.
+A lightweight, GPU-accelerated TinyLlama LLM chat server running on the Arduino Portenta X8 board using Docker.
 
 ![Portenta X8 LLM](https://docs.arduino.cc/static/8e52abe5c2c7a94ea8c7b476c8c8c7a7/2f0d5/portenta-x8-angle.webp)
 
@@ -30,8 +30,8 @@ This project implements a web-based chat interface powered by a quantized TinyLl
 1. Clone this repository to your Portenta X8:
 
 ```bash
-git clone https://github.com/yourusername/portenta-x8-llm.git
-cd portenta-x8-llm
+git clone https://github.com/yourusername/Portenta-X8-NiskoChat.git
+cd Portenta-X8-NiskoChat
 ```
 
 2. Build the Docker image:
@@ -54,7 +54,7 @@ http://<portenta-x8-ip-address>:8080
 
 ### Auto-start Setup
 
-To configure the LLM chat server to start automatically on boot, follow the instructions in the [Auto-start Guide](./docs/autostart_guide.md).
+To configure the NiskoChat server to start automatically on boot, follow the instructions in the [Auto-start Guide](./docs/autostart_guide.md).
 
 ## Project Structure
 

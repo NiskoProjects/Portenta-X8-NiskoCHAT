@@ -10,7 +10,7 @@ import logging
 import time
 import threading
 from flask import Flask, render_template, request, jsonify
-from llm import MistralLLM
+from llm import TinyLlamaLLM
 
 # Configure logging
 logging.basicConfig(
@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Initialize the LLM
-model = MistralLLM()
+model = TinyLlamaLLM()
 
 class ResponseGenerator:
     """Helper class to generate responses with timeout."""
