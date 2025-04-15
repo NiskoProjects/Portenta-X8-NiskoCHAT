@@ -2,7 +2,7 @@
 
 A lightweight, GPU-accelerated TinyLlama LLM chat server running on the Arduino Portenta X8 board using Docker.
 
-![Portenta X8 LLM](https://docs.arduino.cc/static/8e52abe5c2c7a94ea8c7b476c8c8c7a7/2f0d5/portenta-x8-angle.webp)
+ ![image](https://github.com/user-attachments/assets/6110e2cc-3042-493a-baaf-92f5eeeb0ae3)
 
 ## Overview
 
